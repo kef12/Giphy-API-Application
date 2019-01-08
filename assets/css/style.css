@@ -1,0 +1,76 @@
+body {
+	background-color: #eef0f0;
+	color: #080808;
+}
+
+
+html {
+	border: 20px solid;
+	border-image: url("../images/border.gif") 30 round;
+	min-height: 100%;
+}
+#animalfavorites {
+	font-style: bold;
+	font-size: 36px;
+}
+
+.container {
+	opacity: 1;
+	margin-left: 35px;
+}
+
+button {
+    margin: 5px;
+    background-color: #366d6e;
+    color: white;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: #eef0f0;
+    border-radius: 5px;
+}
+
+#animal-input-box {
+	float: right;
+	padding-right: 10%;
+}
+
+label {
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+#add-animal {
+	padding: 5px 10px 5px 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+	background-color: #366d6e;
+	color: white;
+}
+
+#animal-input {
+	margin-top: 10px;
+	height: 20px;
+}
+
+#animalview {
+	margin-top: 10px;
+	margin-right: 25%;
+}
+
+.animalpictures {
+	float: left;
+	display: inline;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+h2 {
+	margin-top: 5px;
+    margin-bottom: 15px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #a8a3ff;
+}
