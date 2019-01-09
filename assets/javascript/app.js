@@ -27,14 +27,14 @@ $(document).ready(function(){
           // Creates a div to hold the animals
           var animalDiv = $("<div>");
 
-          // Make the class for style.css
+          // Makes the class for style.css
           animalDiv.addClass("animalpictures");
 
           // Creates an element to have the rating displayed
           var rating = results[i].rating;
           var p = $("<h2>").text("Rating: " + rating);
 
-          // Pausing or animating the images when clicked
+          // Pauses or animates the images when clicked
           var animalImage = $("<img>");
           animalImage.attr("src", results[i].images.fixed_height_still.url);
           animalImage.attr("data-still", results[i].images.fixed_height_still.url);

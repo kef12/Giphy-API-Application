@@ -6,7 +6,6 @@ body {
 
 html {
 	border: 20px solid;
-	border-image: url("../images/border.gif") 30 round;
 	min-height: 100%;
 }
 #animalfavorites {
